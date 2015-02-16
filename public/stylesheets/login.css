@@ -1,0 +1,46 @@
+#overlay {
+  content: " ";
+  z-index: -1;
+  display: block;
+  position: absolute;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+#login_box {
+    font-family: 'Open Sans', sans-serif;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    box-shadow: 0 3px 3px -2px #232323;
+    border-radius: 6px ;
+    padding: 20px ;
+}
+
+#title {
+    color: black;
+    text-align: center;
+}
+
+#login_username {
+    text-align: center;
+    margin: 15px;
+    height: 1.5em;
+    font-size: 150%;
+    border-color: grey;
+    border-radius: 6px;
+}
+
+#login_form {
+    text-align: center;
+}
+
+#login_button {
+    text-align: center;
+    margin: 15px;
+}
