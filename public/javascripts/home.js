@@ -113,11 +113,11 @@ users.each(function(){
         });
         user.css({'color':'black','border-left':'2px solid #006699'});
         var sel_user = user.attr('id').slice(5)
-        console.log($("[creator="+sel_user+"]"));
+        console.log($("[creator='"+sel_user+"']"));
         $('[creator]').each(function(){
             $(this).css('background-color','white');
         });
-        $("[creator="+sel_user+"]").each(function(){
+        $("[creator='"+sel_user+"']").each(function(){
             console.log('hi');
             console.log($(this));
             $(this).css({'background-color':'#8EC2DA'});
